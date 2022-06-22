@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Rodar todos os testes",
+            "command": "robot",
+            "args": [
+                "-o",
+                "NONE",
+                "-r",
+                "Output/Reports/report",
+                "-l",
+                "NONE",
+                "./Infra"
+            ]
+        },
+        {
+            "label": "Rodar arquivo atual",
+            "command": "robot",
+            "args": [
+                "-o",
+                "Output/out",
+                "-r",
+                "Output/Reports/report",
+                "-l",
+                "Output/log",
+                "${relativeFile}"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
