@@ -1,3 +1,2 @@
-*.log
-*.html
-*.xml
+[Oo]utput
+.vscode/

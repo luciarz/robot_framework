@@ -10,8 +10,3 @@ Realizar login
     Logar com login e senha corretos
     Deve ser redirecionado para a tela de productos
 
-Realizar login
-    Acessar o site principal
-    Logar com login e senha incorretos
-    Deve ser redirecionado para a tela de productos
-

@@ -1,6 +1,6 @@
 *** Settings ***
 Resource    ../Infra/base.robot
-Resource    ./ProductsPage.robot
+
 *** Variables ***
 
 ${lblProducts}      xpath://span[text()="Products"]
